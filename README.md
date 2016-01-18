@@ -4,8 +4,8 @@ A Log Parser by NodeJS For SAE
 ###如何使用
 ```javascript
 var logparser = require("parser.js");
-logparser.segment(logSource);
-logparser.uaParser(logSource);
+logParsed = logparser.segment(logSource);
+logparser.uaParser(logParsed.userAgent);
 ```
 
 #####注意
