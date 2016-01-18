@@ -39,7 +39,7 @@ exports.uaParser = function (useragent) {
 		"iOS" : /(iPhone OS)\s+(\d+\_\d+\_*\d*)/gim,
 		"Windows" : /(Windows NT)\s+(\d+\.\d+\.*\d*)/gim
 	};
-	var count = 0, idx = 0, tindex;
+	var count = 0, idx = 0;
 
 	wechatReg = /MicroMessenger\/(\d+\.\d+\.*\d*\.*\w*\.*\d*)/gim;
 
