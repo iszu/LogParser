@@ -1,0 +1,19 @@
+{
+  "name": "logparser",
+  "version": "1.0.0",
+  "description": "A Log Parser by NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iszu/LogParser.git"
+  },
+  "author": "Jason",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iszu/LogParser/issues"
+  },
+  "homepage": "https://github.com/iszu/LogParser#readme"
+}
